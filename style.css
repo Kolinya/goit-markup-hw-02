@@ -3,3 +3,12 @@ color: #757575;
 color: #2196F3;
 color: #FFFFFF;
 color: #212121; */
+.root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
