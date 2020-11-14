@@ -81,6 +81,7 @@ a {
   color: #ffffff;
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -98,7 +99,7 @@ a {
   text-transform: uppercase;
   color: #212121;
 }
-.features-text {
+.section-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -149,4 +150,25 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/* PORTFOLIO */
+.button-list {
+  background-color: #f5f4fa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.button-list :hover,
+:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
