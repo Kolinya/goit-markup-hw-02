@@ -14,8 +14,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* logo */
-.logo {
+.web {
   color: #2196f3;
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-black {
+  color: #000000;
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio-white {
+  color: #ffffff;
   font-family: "raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -108,4 +124,29 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
