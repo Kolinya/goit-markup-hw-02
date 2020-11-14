@@ -2,7 +2,8 @@
 color: #757575;
 color: #2196F3;
 color: #FFFFFF;
-color: #212121; */
+color: #212121;
+background-color: #2F303A; */
 .root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
@@ -10,5 +11,101 @@ color: #212121; */
   --primary-white-color: #ffffff;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* logo */
+.logo {
+  color: #2196f3;
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* Reset styles */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Navigation */
+.nav-list .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #2196f3;
+}
+.contacts a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts a:hover {
+  color: #2196f3;
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* features */
+
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Team */
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-prof {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
