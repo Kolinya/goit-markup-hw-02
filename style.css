@@ -162,7 +162,7 @@ a {
   color: #212121;
 }
 .button-list :hover,
-:focus {
+.button-list:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
