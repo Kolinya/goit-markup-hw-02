@@ -138,9 +138,9 @@ a {
   color: var(--primary-title-color);
 }
 .team-member {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
