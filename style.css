@@ -1,21 +1,18 @@
-/* Палитра
-color: #757575;
-color: #2196F3;
-color: #FFFFFF;
-color: #212121;
-background-color: #2F303A; */
-.root {
+/* Палитра */
+
+:root {
   --primary-text-color: #757575;
   --primary-title-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --primary-background-color: #2f303a;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 /* logo */
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: "raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -31,7 +28,7 @@ body {
   letter-spacing: 0.03em;
 }
 .studio-white {
-  color: #ffffff;
+  color: var(--primary-white-color);
   font-family: "raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -52,14 +49,14 @@ a {
 }
 /* Navigation */
 .link-opened {
-  color: #2196f3;
+  color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-list .link {
-  color: #212121;
+  color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,22 +64,22 @@ a {
 }
 .nav-list .link:hover,
 .nav-list .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts a {
-  color: #212121;
+  color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts a:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* Hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -91,7 +88,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -99,11 +96,11 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .hero-button:hover {
-  background-color: #757575;
+  background-color: var(--primary-text-color);
 }
 
 /* features */
@@ -114,31 +111,43 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .section-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
+}
+/* activitis */
+.activitis {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
 }
 /* Team */
 .team-title {
   font-weight: bold;
   font-size: 36px;
+  text-align: center;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .team-member {
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .team-prof {
   font-size: 16px;
+  text-align: center;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
@@ -152,7 +161,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .footer-mail {
   font-style: normal;
@@ -168,6 +177,12 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
 /* PORTFOLIO */
 .button-list {
   background-color: #f5f4fa;
@@ -177,16 +192,16 @@ a {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
 .button-list:hover,
 .button-list:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 .project-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-title-color);
 }
