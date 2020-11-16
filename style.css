@@ -131,7 +131,7 @@ a {
 }
 /* Team */
 .team {
-  background-color: var(--secondary-background);
+  background: var(--secondary-background);
 }
 .team-title {
   text-align: center;
