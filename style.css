@@ -129,7 +129,7 @@ a {
   color: var(--primary-title-color);
 }
 /* Team */
-.team-title {
+.team .team-title {
   font-weight: bold;
   font-size: 36px;
   text-align: center;
