@@ -1,6 +1,7 @@
 /* Палитра */
 
 :root {
+  --secondary-background: #f5f4fa;
   --primary-text-color: #757575;
   --primary-title-color: #212121;
   --accent-color: #2196f3;
@@ -129,6 +130,9 @@ a {
   color: var(--primary-title-color);
 }
 /* Team */
+.team {
+  background-color: var(--secondary-background);
+}
 .team-title {
   text-align: center;
   font-weight: bold;
@@ -150,11 +154,11 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--primary-background-color);
 }
 .footer-adress {
   font-style: normal;
