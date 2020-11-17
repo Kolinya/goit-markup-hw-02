@@ -46,6 +46,9 @@ a {
   padding: 0;
   outline: none;
 }
+button {
+  font-family: inherit;
+}
 /* Navigation */
 .link-opened {
   color: var(--accent-color);
