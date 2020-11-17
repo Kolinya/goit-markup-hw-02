@@ -22,7 +22,6 @@ body {
 }
 .studio-black {
   color: #000000;
-  font-family: "raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -30,7 +29,6 @@ body {
 }
 .studio-white {
   color: var(--primary-white-color);
-  font-family: "raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -67,9 +65,11 @@ a {
 .nav-list .link:focus {
   color: var(--accent-color);
 }
-
+.nav-list-logo {
+  font-family: "raleway", sans-serif;
+}
 .contacts a {
-  color: var(--primary-title-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -92,7 +92,6 @@ a {
   color: var(--primary-white-color);
 }
 .hero-button {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
