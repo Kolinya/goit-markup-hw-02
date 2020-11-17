@@ -65,7 +65,7 @@ a {
 .nav-list .link:focus {
   color: var(--accent-color);
 }
-.nav-list-logo {
+.nav-list > a {
   font-family: "raleway", sans-serif;
 }
 .contacts a {
